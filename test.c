@@ -15,7 +15,7 @@ char ** r_char(int n){
 	
 	for (int i = 0; i < n; i++){
 
-	    orderIds[i] = malloc((5+1) * sizeof(char));
+	    orderIds[i] = malloc( (5+1) * sizeof(char) );
 		printf("Enter a string: ");
 	    scanf("%s",orderIds[i]);
 	}
